@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* General Styles */
 body {
     font-family: 'Arial', sans-serif;
@@ -159,3 +160,166 @@ footer {
     bottom: 0;
     width: 100%;
 }
+=======
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1e1e1e;
+}
+
+header .logo h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+header .cart {
+    font-size: 1.2rem;
+}
+
+/* Product Grid */
+main {
+    padding: 20px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.product-card h2 {
+    font-size: 1.6rem;
+    margin: 10px 0;
+}
+
+.product-card .price {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.product-card .add-to-cart {
+    background-color: #ff5722;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.product-card .add-to-cart:hover {
+    background-color: #e64a19;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e1e1e;
+    font-size: 1rem;
+}
+/* General body and background styles */
+body {
+    font-family: 'Special Elite', cursive; /* Old English font from Google Fonts */
+    background: linear-gradient(to right, #000000, #8B0000); /* Black and red gradient background */
+    color: #f4f4f4; /* Light text color for readability */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    padding: 50px;
+}
+
+header h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* Hero Section Styles */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    color: #f4f4f4;
+    margin-bottom: 30px;
+}
+
+/* Button Container */
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Cool Button Styles */
+.cool-button {
+    background-color: #ff0000; /* Red background */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 8px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Hover Effect */
+.cool-button:hover {
+    background-color: #8B0000; /* Darker red background on hover */
+    transform: translateY(-5px); /* Slightly lift the button */
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    color: #f4f4f4;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+>>>>>>> edac5c4462ce5a1d300a6a3d1bb6f14505413644
